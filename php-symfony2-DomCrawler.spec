@@ -9,7 +9,7 @@ License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
 # Source0-md5:	053ef008f19879b001bdf83b5f6f38b2
-URL:		http://symfony.com/doc/current/components/dom_crawler.html
+URL:		http://symfony.com/doc/2.4/components/dom_crawler.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
