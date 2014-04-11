@@ -3,18 +3,22 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 DomCrawler Component
 Name:		php-symfony2-DomCrawler
-Version:	2.3.4
+Version:	2.4.3
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	913d34b617d90aa74c6789b0ad48ba89
+# Source0-md5:	053ef008f19879b001bdf83b5f6f38b2
 URL:		http://symfony.com/doc/current/components/dom_crawler.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(mbstring)
+Requires:	php(pcre)
+Requires:	php(spl)
+Requires:	php(xml)
 Requires:	php-channel(pear.symfony.com)
 Requires:	php-pear >= 4:1.3.10
 Suggests:	php-symfony2-CssSelector
