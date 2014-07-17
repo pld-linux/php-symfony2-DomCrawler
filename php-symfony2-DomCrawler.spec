@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 DomCrawler Component
 Name:		php-symfony2-DomCrawler
-Version:	2.4.3
+Version:	2.4.4
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.symfony.com/get/%{pearname}-%{version}.tgz
-# Source0-md5:	053ef008f19879b001bdf83b5f6f38b2
+# Source0-md5:	329bee4a4727bb88491587c7b0b59cd6
 URL:		http://symfony.com/doc/2.4/components/dom_crawler.html
 BuildRequires:	php-channel(pear.symfony.com)
 BuildRequires:	php-pear-PEAR
