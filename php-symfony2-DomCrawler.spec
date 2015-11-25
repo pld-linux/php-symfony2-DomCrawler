@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 DomCrawler Component
 Name:		php-symfony2-DomCrawler
-Version:	2.7.5
+Version:	2.7.7
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	e8132e5968414ff9b1c9a217c7fb3c94
+# Source0-md5:	dec532eedc79c88a686d153b5f92ee67
 URL:		http://symfony.com/doc/2.7/components/dom_crawler.html
 BuildRequires:	phpab
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -34,7 +34,7 @@ manipulation of the DOM or re-dumping HTML/XML.
 %setup -q -n dom-crawler-%{version}
 
 %build
-phpab -n -e '*/Tests/*' -o autoloader.php .
+phpab -n -e '*/Tests/*' -o autoload.php .
 
 %install
 rm -rf $RPM_BUILD_ROOT
