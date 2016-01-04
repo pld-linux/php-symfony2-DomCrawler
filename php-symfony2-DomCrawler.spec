@@ -17,6 +17,7 @@ Requires:	php(mbstring)
 Requires:	php(pcre)
 Requires:	php(spl)
 Requires:	php(xml)
+Requires:	php-dirs >= 1.6
 Suggests:	php-symfony2-CssSelector
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
