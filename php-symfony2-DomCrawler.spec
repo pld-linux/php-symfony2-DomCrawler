@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 DomCrawler Component
 Name:		php-symfony2-DomCrawler
-Version:	2.7.7
+Version:	2.7.8
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/symfony/%{package}/archive/v%{version}/%{package}-%{version}.tar.gz
-# Source0-md5:	dec532eedc79c88a686d153b5f92ee67
+# Source0-md5:	de9007af6da354755790778a7df92ca1
 URL:		http://symfony.com/doc/2.7/components/dom_crawler.html
 BuildRequires:	phpab
 BuildRequires:	rpmbuild(macros) >= 1.610
