@@ -1,6 +1,5 @@
 %define		package	DomCrawler
 %define		php_min_version 5.3.9
-%include	/usr/lib/rpm/macros.php
 Summary:	Symfony2 DomCrawler Component
 Name:		php-symfony2-DomCrawler
 Version:	2.7.8
